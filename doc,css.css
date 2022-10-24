@@ -1,0 +1,241 @@
+body{
+    margin-top: 0px;
+}
+
+.main-pic {
+ width: 250px;
+ height: 150px;
+}
+.navbar {
+display: flex; 
+justify-content:space-around;
+align-items: center;
+width: 100vw;
+position: fixed;
+background-color: white;
+}
+.intro {
+    padding-top: 100px;
+}
+
+.navbar-ul{
+    display: flex; 
+justify-content:space-around;
+width: 300px;
+}
+li {
+   list-style-type: none;
+}
+a {
+    text-decoration: none ;
+    color: grey ;
+    fill: #747474;
+}
+.green {
+    color: #00b39b;
+}
+a:hover {
+    color: #00b39b ;
+    fill: #00b39b;
+}
+.dropdown {
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    display: none;
+    position: absolute;
+    flex-direction:column;
+    padding: 25px;
+    padding-left: 0px;
+    background-color: white;
+}
+.dropdown-menu:hover + .dropdown{
+  display: flex;
+}
+.dropdown:hover {
+    display: flex;
+}
+.dropdown-text:hover {
+    background-color: #d4d1d1;
+    color: #00b39b ;
+}
+.dropdown li {
+    padding: 5px ;
+}
+.logo {   
+ display: block;
+ margin-right: auto;
+ margin-left: auto;
+}
+.intro h1 {
+    color: #00b39b;
+    text-align: center;
+}
+.intro-p {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 300px 50px 300px;
+
+}
+.intro-par {
+    padding: 25px;
+    font-size: 20px;
+    color: #747474;
+ }
+ .cards {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    width: 67%;
+    margin: 70px 250px 20px 250px;
+ }
+ .patients {
+    background-color: #00b39b;
+    border-radius: 11px;
+    padding: 3%;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24%; 
+ }
+ .patients:hover{opacity: 0.9;}
+ .doctors {
+    background-color: #3d83df;
+    border-radius: 11px;
+    padding: 3%;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24%; 
+ }
+ .doctors:hover{opacity: 0.9;}
+ .clinics {
+    background-color: #1b2734;
+    border-radius: 11px;
+    padding: 3%;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24%; 
+ }
+ .clinics:hover{opacity: 0.9;}
+ .cards h1{
+    color: white;
+ }
+.cards p {
+    color: white;
+}
+.select select {
+    background-color: transparent;
+    border: 0;
+    text-decoration: underline;
+    color: white;
+    font-size: 17px;
+    padding: 3%;
+    cursor: pointer;
+}
+.select select option {
+    color: black;
+}
+.partners{
+    display: inline-flex;
+    flex-direction: row;
+    padding: 20px 300px 20px 300px;
+}
+.slogan h1{
+    color: #00b39b;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.partners-logo {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0px 50px 20px 50px;
+    justify-content: space-between;
+}
+.slogan svg{
+    width: 150px;
+}
+.stats {
+    display: flex;
+    padding: 20px 350px 20px 350px;
+    background-color: #e5faf8;
+}
+h2 {
+    color: #00b39b;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: #747474;
+}
+.intro {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.numbers {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.countries {
+    background-color: white;
+    text-align: center;
+    block-size: inherit;
+    width: 200px;
+    height: 220px;
+padding: 15px;
+margin: 15px;
+}
+.appointments {
+    background-color: white;
+    text-align: center;
+    block-size: inherit;
+    width: 200px;
+    height: 220px;
+    padding: 15px;
+    margin: 15px;}
+.websites {
+    background-color: white;
+    text-align: center;
+    block-size: inherit;
+    width: 200px;
+    height: 220px;
+    padding: 15px;
+    margin: 15px;}
+.trust {
+    background-color: white;
+    text-align: center;
+    block-size: inherit;
+    width: 200px;
+    height: 220px;
+    padding: 15px;
+    margin: 15px;}
+.photo ul  { 
+display: flex;
+width: 700px;
+flex-wrap: wrap;
+margin: 5px auto;
+justify-content: space-evenly ;
+
+}
+.run input {
+ display: block;
+ margin: 1px auto;
+ margin-top: 10px;
+ border-radius: 5px;
+ border-color: black;
+}
+.title {
+    display:flex ;
+    justify-content: center;
+
+}
+footer h1{
+    font-size: 15px;
+}
+footer{
+    width: fit-content;
+    margin: 1px auto;
+    
+}
